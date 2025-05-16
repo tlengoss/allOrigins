@@ -31,13 +31,10 @@ jobs:
       - name: Install step
         run: "npm install"
 
-      - name: Build step
-        run: "npm start"
-
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "tlengoss-allorigins-79"
+          project: "tlengoss-allorigins-64"
           entrypoint: "server.js"
           root: ""
           
