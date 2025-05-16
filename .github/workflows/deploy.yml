@@ -35,7 +35,7 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "tlengoss-allorigins-64"
-          entrypoint: "app.js"
+          entrypoint: "server.js"
           root: ""
           
           
